@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML TO IMAGE</title>
+
+    <!-- BOOTSRTAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+        crossorigin="anonymous"
+    >
+
+    <!-- BOOTSTRAP JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"
+    ></script>
+
+    <!-- MINIFIED JS LIBRARIES -->
+    <script src="scripts/jquery.min.js" type="text/javascript"></script>
+
+     <!-- HTML2CANVAS LIBRARIES -->
+    <script src="scripts/html2canvas.js" type="text/javascript"></script>
+        
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container pt-5 mt-5 mb-5" id="html-content-holder">
+        <div class="row">
+            <section class="col-12">
+                <div class="row">
+                    <div class="logo col-3">
+
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-6 centerText">
+                        <h2><b>National Identity Management System</b></h2><br>
+                        <h4 style="margin-top: -1em"><b>Federal Republic of Nigeria</b></h4><br>
+                        <p style="margin-top: -1.5em"><b>National Identification Number Slip (NINS)</b><p>
+                    </div>
+                    <div class="col-3">
+                        <img class="navImage navImageLogo2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM_Y09YavKi4e_njm3yyiMcnS9jp91GUDPLmZkrMuxLwSxiQml&s" />
+                    </div>
+                </div>
+            </section>
+            <section class="border col-12">
+                <div class="row mt-1 pt-1">
+                    <div class="col-3">
+                        <div class="row borderB borderR">
+                            <label for="" class="col-sm-4 col-form-label">Tracking ID:</label>
+                            <p class="col-sm-6 col-form-label">S7Y0O0ZP6000B5L</p> 
+                        </div>
+                        <div class="row borderB borderR">
+                            <label class="col-sm-4 col-form-label"><b>NIN : </b></label>
+                            <p class="col-sm-6 col-form-label">45799538946</p>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div>
+                            <div class="row borderB">
+                                <label class="col-sm-5 col-form-label"><b>Surname : </b></label>                                    
+                                <p class="col-sm-7 col-form-label">OKARA</p>
+                            </div>
+                            <div class="row borderB">
+                                <label class="col-sm-5 col-form-label"><b>First Name : </b></label>                                   
+                                <p class="col-sm-7 col-form-label">EBIERE</p>
+                            </div>
+                            <div class="row borderB borderL">
+                                <label class="col-sm-5 col-form-label"><b>Middle Name : </b></label>                                   
+                                <p class="col-sm-7 col-form-label"></p> 
+                            </div>
+                            <div class="row borderL borderB">
+                                <label class="col-sm-5 col-form-label"><b>Gender : </b></label>                                  
+                                <p class="col-sm-7 col-form-label">f</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="row borderL">
+                            <div class="col-sm-4 col-form-label">
+                                <label class="col-form-label"><b>Address:</b></label>                               
+                                <p class="overflow"></p>                           
+                                <p class="overflow">Yenagoa</p>                             
+                                <p class="overflow">Bayelsa</p>
+                            </div>
+                            <div class="col-sm-6 col-form-label pl-5">
+                                <img class="mx-auto d-block" 
+                                    src="photo.jpeg" 
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="border col-12 pt-3">
+                <div class="row justify-content-md-center borderB centerText">
+                    <label class="col-form-label col-sm-4 col-md-2 col-lg-2"><b>Enrollment Type : </b></label>
+                    <p class="col-form-label col-sm-4 col-md-2 col-lg-2" green>ENROLLMENT COMPLETED</p>
+                </div>
+                <div class="col-12 m-3">
+                    <label>Note: The <b>National Identification Number (NIN) is your identity</b>. </label><br>
+                    <label>It is confidential and may only be realeased for legitimate transactions.</label><br>
+                    <label>Verified by <b>Afritech.</b></label>
+                    <p style="margin-bottom: 0">You will be notified when your National Identity Card is ready. (for any enquiries please contact)</p>
+                </div>
+            </section>
+            <section class="border col-12">
+                <div class="row justify-content-md-center\">  
+                    <div class="col-3 borderR footerPadding">
+                        <img class="mx-auto d-block m-3 footerlogoWidth" 
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyl_txiWzUe_ZUZfhS3TLoQo1azq2f9PDQSg&usqp=CAU" 
+                        />
+                        <p class="centerText overflow" >helpdesk@nimc.gov.ng</p>
+                    </div>
+                    <div class="col-3 borderR footerPadding">
+                        <img class="mx-auto d-block m-3 footerlogoWidth" 
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOvbk3ljCAaotJSpxrY3vtCryhxnK4i0aTIQ&usqp=CAU"
+                        />
+                        <p class="centerText overflow" >0700-CALL-NIMC<br>(0700-2255-646)</p>
+                    </div>
+                    <div lass="col-3 borderR footerPadding">
+                        <img class="mx-auto d-block m-3 footerlogoWidth"/>
+                        <p class="centerText overflow" > 11, Sokode Crescent, Off Dalaba Street</p>
+                        <p class="centerText overflow" >Zone 5 Wuse, Abuja, Nigeria</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <center>
+        <!-- convertion button -->
+        <input id="btn_convert" type="button" value="Convert to Image"> 
+        <br />
+
+        <h3>Preview :</h3>
+
+        <div id="previewImg"></div>
+    </center>
+
+
+    <!-- JQUERY CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="scripts/custom-script.js"></script>
+</body>
+</html>
